@@ -2,9 +2,9 @@
 
 namespace Joshuasweb\LaravelDbState;
 
+use Joshuasweb\LaravelDbState\Commands\LaravelDbStateCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Joshuasweb\LaravelDbState\Commands\LaravelDbStateCommand;
 
 class LaravelDbStateServiceProvider extends PackageServiceProvider
 {

@@ -3,8 +3,8 @@
 namespace Joshuasweb\LaravelDbState\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Joshuasweb\LaravelDbState\LaravelDbStateServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
