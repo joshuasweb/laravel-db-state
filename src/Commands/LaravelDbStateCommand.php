@@ -6,9 +6,9 @@ use Illuminate\Console\Command;
 
 class LaravelDbStateCommand extends Command
 {
-    public $signature = 'laravel-db-state';
+    public $signature = 'db-state';
 
-    public $description = 'My command';
+    public $description = 'Ensures the correct database state is loaded';
 
     public function handle(): int
     {

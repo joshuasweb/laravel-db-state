@@ -51,10 +51,7 @@
         "laravel": {
             "providers": [
                 "Joshuasweb\\LaravelDbState\\LaravelDbStateServiceProvider"
-            ],
-            "aliases": {
-                "LaravelDbState": "Joshuasweb\\LaravelDbState\\Facades\\LaravelDbState"
-            }
+            ]          
         }
     },
     "minimum-stability": "dev",

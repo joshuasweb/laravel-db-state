@@ -18,8 +18,8 @@ class LaravelDbStateServiceProvider extends PackageServiceProvider
         $package
             ->name('laravel-db-state')
             ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_laravel-db-state_table')
+            // ->hasViews()
+            // ->hasMigration('create_laravel-db-state_table')
             ->hasCommand(LaravelDbStateCommand::class);
     }
 }
